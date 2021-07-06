@@ -1,0 +1,37 @@
+@import 'reset';
+@import 'config';
+@import 'nav';
+@import 'home';
+@import 'sobre';
+
+body {
+    background: $main-bg-color;
+    height: 100vh;
+    margin: 0 10%;
+    font-family: $roboto;
+    color: $main-text-color;
+}
+
+a {
+
+    i {
+        margin: 0 1.5rem;
+        font-size: 1.6rem;
+        border-radius: 50%;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6), -3px -3px 10px rgba(58, 58, 58, 0.6);
+        color: $text-link-color;
+
+        &:active {
+            border-radius: 50%;
+            box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.6), inset -3px -3px 10px rgba(58, 58, 58, 0.6);
+            color: $text-link-color;
+            outline: none;
+        }
+
+        &:hover{
+            color: white;
+            background-color: rgb(26, 26, 26);
+            transition: all 0.5s ease-in-out;
+        }
+    }
+}

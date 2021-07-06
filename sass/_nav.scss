@@ -1,0 +1,20 @@
+.nav-item{
+    .nav-link {
+        font-size: 1.2rem;
+        padding: 1.2rem;
+        margin: 0 30px;
+        font-family: $roboto-mono;
+        text-transform: uppercase;
+        color: $text-link-color;
+       
+        &:hover{
+            color: $highlight;
+        }
+
+    }
+
+    .active{
+        color: $highlight;
+    }
+}
+

@@ -1,0 +1,36 @@
+$main-bg-color: #1C1C1C;
+$main-text-color: #DDDDDD;
+$text-link-color: #A5A5A5;
+
+$highlight: rgb(253, 131, 131);
+$roboto: 'Roboto',
+sans-serif;
+$roboto-mono: 'Roboto Mono',
+monospace;
+
+*:focus {
+    outline: 0 !important;
+    box-shadow:
+        0 0 0 .2rem #fff,
+        0 0 0 .35rem #069 !important;
+}
+
+*:focus:not(:focus-visible) {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+@keyframes animation {
+    0%{
+        opacity: 0;
+        transform: translate(0, -15%);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@mixin animation {
+    animation: animation 1s forwards 0s ease;
+}
