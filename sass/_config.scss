@@ -32,5 +32,12 @@ monospace;
 }
 
 @mixin animation {
-    animation: animation 1s forwards 0s ease;
+    animation: animation 2s forwards ease;
+}
+
+
+@mixin mobile {
+    @media screen and (max-width: 900px){
+        @content;
+    }
 }

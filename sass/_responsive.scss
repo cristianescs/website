@@ -1,0 +1,25 @@
+@include mobile {
+
+    .info {
+        h3 {
+            font-size: 1.6rem !important;
+        }
+
+        h4 {
+            width: 80% !important;
+            font-size: 1rem !important;
+        }
+    }
+
+
+    .social-icons {
+        a {
+
+            i {
+                margin: 36px 8px !important;
+            }
+        }
+
+    }
+
+}
