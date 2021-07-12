@@ -1,4 +1,7 @@
 @include mobile {
+    body {
+        background-image: none !important;
+    }
 
     .info {
         h3 {
